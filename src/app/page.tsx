@@ -17,7 +17,6 @@ export default function HomePage() {
                   <h3>
                     <Link href={`/blog/${p.slug}`}>{p.title}</Link>
                   </h3>
-                  <p>{p.summary}</p>
                 </article>
               </li>
             ))}
