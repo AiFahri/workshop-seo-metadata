@@ -4,6 +4,7 @@ export type Post = {
   summary: string;
   image?: string;
   date: string;
+  author: string;
 };
 
 export const posts: Post[] = [
@@ -13,6 +14,7 @@ export const posts: Post[] = [
     summary: "Cara pakai metadata dan og image agar ramah SEO",
     image: "/images/thumbnail.webp",
     date: "2025-10-25",
+    author: "Admin",
   },
   {
     slug: "seo-dasar",
@@ -20,5 +22,6 @@ export const posts: Post[] = [
     summary: "Cara mengoptimalkan SEO pada website anda supaya jadi yg teratas",
     image:"/images/thumbnail.webp",
     date: "2025-10-25",
+    author: "BCC"
   }
 ];  
